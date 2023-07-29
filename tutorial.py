@@ -24,7 +24,28 @@ my_variable = user_input
 # Print the value of the variable
 print("The value of my_variable is:", my_variable)
 
-# If statements
+# If statements ---------------------------------
+"""In this example, we have two variables x and y with values 5 and 10,
+respectively. The if statement checks if the condition x > y is True. 
+If it is, the code within the if block is executed. In this case, the
+condition is False, so the code moves on to the next condition in the
+elif statement. This condition checks if x < y is True. Since it is,
+the code within the elif block is executed and “x is less than y” is 
+printed.
+
+If neither the if nor the elif conditions are True, the code within the
+else block is executed. In this example, since one of the previous 
+conditions was True, the code within the else block is not executed."""
+
+x = 5
+y = 10
+
+if x > y:
+    print("x is greater than y")
+elif x < y:
+    print("x is less than y")
+else:
+    print("x is equal to y")
 
 # For loops
 
