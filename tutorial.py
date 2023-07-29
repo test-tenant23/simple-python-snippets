@@ -10,7 +10,19 @@ output to the console."""
 # Print "Hello, World!" to the console
 print("Hello, World!")
 
-# Input and Assignment
+# Input and Assignment --------------------------
+"""This code takes input from the user using the input() function 
+and assigns it to the user_input variable. The value of user_input 
+is then assigned to another variable called my_variable. Finally,
+the value of my_variable is printed using the print() function"""
+# Take input from the user
+user_input = input("Enter a value: ")
+
+# Assign the input value to a variable
+my_variable = user_input
+
+# Print the value of the variable
+print("The value of my_variable is:", my_variable)
 
 # If statements
 
